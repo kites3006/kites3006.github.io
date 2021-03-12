@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dist/aos.css" />
+    <title>Gallery</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="feedbacks.html">Feedbacks</a></li>
+        </ul>
+        </div>
+    <div id="slider" data-aos="fade-down" data-aos-duration="1200" >
+        <div id="main-slider">
+              <img src="images/lr1.jpg" id="slider1" onsubmit="changeImage()">
+        </div>
+        <div class="arrow">
+        <button id="previous" data-aos="fade-right" data-aos-duration="2100" onclick="previous()"><</button>
+         <button id="next" data-aos="fade-left" data-aos-duration="2100" onclick="next()" >></button>
+        </div>
+    </div>
+    </div>
+
+    <script src="js/slider.js"></script>
+    <script src="dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+</body>
+</html>
