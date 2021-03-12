@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="dist/aos.css" />
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <div class="contactparts" >
+            <div class="navbar">
+                <ul>
+                    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="feedbacks.html">Feedbacks</a></li>
+                </ul>
+                </div>
+
+                <div class="cpart1" >
+                    
+                    <div class="formbox" data-aos="fade-right" data-aos-duration="500" >
+                        <form action="contact.html" name="myForm"  id="contact">
+                            <label for="">Your Firstname:</label><br><br>
+                            <input type="text" name="name" id="name" ><br><br>
+                            <label>Your Lastname: </label><br><br>
+                            <input type="text" name="lastname" id="lastname" ><br><br><br>
+                            <label for="">Your Email</label><br><br>
+                            <input  type="email" name="email" id="email"><br><br><br><br>
+                            <textarea id="msg" name="message" placeholder="type your message..."
+                            cols="35"
+                            rows="6"
+                            ></textarea><br>
+                            <button id="submitbutton" onclick="validate()" type="submit">Send Message</button>
+                            
+                        </form>
+                    </div>
+
+                </div>
+                <script src="dist/aos.js"></script>
+                <script>
+
+                    document.getElementById('btn').addEventListener('click' , function(event){
+                        event.preventDefault();
+
+                        const username = document.getElementById('name').value;
+                        const lastname = document.getElementById('lastname').value;
+                        const email = document.getElementById('email').value;
+
+                        const emailReg = /^[A-Za-z0-9_\-.]+@[A-A-Za-z0-9_\-.]+\.[A-Za-z]{2,4}$^/;
+
+                        if(username === ""){
+                            alert("Username is required !");
+                            username.focus();
+                            return false;
+                        }
+                        if(lastname === ""){
+                            alert("Lastname is required!");
+                            lastname.focus();
+                            return false;
+                        }
+                        if(email === ""){
+                            alert("Email is required! ");
+                            email.focus();
+                        }
+                        if(!emailReg(email)){
+                            alert("Enter a valid email !");
+                            return false;
+                        }
+                    })
+
+
+
+
+
+                  AOS.init({
+                    easing: 'ease-in-out-sine'
+                  });
+                  
+                </script>
+    </body>
+</html>
