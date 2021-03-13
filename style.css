@@ -1,0 +1,3094 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+html{
+    overflow-x: hidden;
+    background-image: url(../images/background.png);
+    
+}
+.allparts{
+    background-color: black;
+    padding: 20px;
+    width: 1510px;
+    height: 4150px;
+    margin-left: 9px;
+}
+.navbar{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin-left: 180px;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 15px;
+    transition: all .600s linear;
+    margin-right: 100px;
+} 
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    transition: all linear  .300s;
+}
+
+li a:hover{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.navbar li a:active{
+    color: peru;
+    font-size: 22px;
+}
+
+.part1{
+    position: relative;
+    width: 100%;
+    height: 900px;
+}
+
+.part1 img{
+    position: absolute;
+    width: 900px;
+    height: 700px;
+}
+.box{
+    position: absolute;
+    width:580px ;
+    height: 320px;
+    background-color: black;
+    margin-left: 770px;
+    margin-top: 435px;
+    opacity: 0.7;
+    border: 3px solid white;
+    box-shadow: 5px 5px white;
+    transition: 5s width  ;
+    
+}
+
+.box:hover{
+    width: 620px;
+    opacity: 0.7;
+}
+.box p{
+    color: white;
+    font-size: 60px;
+    margin-left: 150px;
+    margin-top: 45px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.part2{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+.part2 #back{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    margin-left: 600px;
+    margin-top: 0px;
+    opacity: 0.9;
+    border-radius: 4px;
+}
+.part2 #front{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    margin-top: 360px;
+    margin-left: 300px;
+    border-radius: 4px;
+}
+.part2 p{
+    width: 330px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+    margin-top: 50px;
+    padding: 20px ;
+    margin-left: 120px;
+   
+}
+.part2 #change{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 90px;
+
+}
+.part2 #p2{
+    width: 590px;
+    text-align: justify;
+    color: white;
+    margin-left: 920px;
+    margin-top: 220px;
+    
+}
+.part2 #change1{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 60px;
+
+}
+.part3{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+.part3 p{
+    font-size: 25px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 600px;
+    letter-spacing: 4px;
+
+}
+.part3 #img1{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-left: 1100px;
+    margin-top: 130px;
+}
+.part3 #img2{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-left: 1100px;
+    margin-top: 130px;
+    transition: all .500s linear;
+    
+}
+.part3 #img2:hover {
+    cursor: pointer;
+    opacity: 0;
+}
+.part3 #img3{
+    position: absolute;
+    width: 600px;
+    height: 440px;
+    margin-left: 450px;
+    margin-top: 250px;
+    
+}
+.part3 #img4{
+    position: absolute;
+    width: 600px;
+    height: 440px;
+    margin-left: 450px;
+    margin-top: 250px;
+    transition: all .500s linear;
+    
+}
+.part3 #img4:hover{
+    cursor: pointer;
+    opacity: 0;
+}
+.part3 #img5{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 130px;
+}
+.part3 #img6{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 130px;
+    transition: all .500s linear;
+    
+}
+.part3 #img6:hover{
+    cursor: pointer;
+    opacity: 0;
+}
+.part3 img{
+    border-radius: 9px;
+}
+.part4{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.part4 p{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin-top: 120px;
+    font-family: 'Montserrat', sans-serif;
+    transform: rotate(-90deg);
+}
+
+.box1 img{
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.box1 p{
+    transform: rotate(0deg);
+    font-size: 18px;
+    margin-left: 310px;
+    margin-top: 18px;
+}
+.box1 #change{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-left: 58px;
+
+}
+
+.box1 #img1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.box1 #p1{
+    position: absolute;
+    margin-left: 710px;
+}
+.box1 #change1{
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 8px;
+}
+.box1 #img2{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+.box1 #p2{
+    position: absolute;
+    margin-left: 1094px;
+}
+.box1 #change2{
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 14px;
+}
+.part5{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+ form{
+    width: 78%;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 0px 180px;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 290px;
+}
+.part5 form input{
+    width: 350px;
+    padding: 10px 0px;
+    margin-right: 20px;
+    font-size: 18px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+form #button{
+    cursor: pointer;
+    font-family: 'Montserrat' , 'sans-serif';
+    border:none;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    width: 200px;
+}
+
+
+.part5 p{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 6px;
+    margin-top: 0px;
+    margin-left: 480px;
+    transform: rotate(0deg);
+}
+.part6{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.part6 #about{
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 190px;
+    margin-left: 300px;
+    color: rgb(185, 185, 185);
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+.part6 #team{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 220px;
+    margin-left: 300px;
+    color: rgb(185, 185, 185);
+    letter-spacing: 5px;
+}
+.part6 #social{
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 190px;
+    font-weight: 600;
+    margin-left: 500px;
+    color: rgb(185, 185, 185);
+    letter-spacing: 3px;
+}
+.part6 #fb{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 220px;
+    margin-left: 500px;
+    color: rgb(185, 185, 185);
+    letter-spacing: 5px;
+}
+.part6 #insta{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 250px;
+    margin-left: 500px;
+    color: rgb(185, 185, 185);
+    letter-spacing: 5px;
+}
+.part6 #phone{
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 190px;
+    margin-left: 720px;
+    color: rgb(185, 185, 185);
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.part6 #number{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 220px;
+    margin-left: 720px;
+    color: rgb(185, 185, 185);
+    letter-spacing: 5px;
+}
+.part6 #email{
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 190px;
+    margin-left: 980px;
+    color: rgb(185, 185, 185);
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.part6 #email1{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 220px;
+    margin-left: 980px;
+    color: rgb(185, 185, 185);
+    letter-spacing: 5px;
+}
+.part1 #logo{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin-left: 1170px;
+    margin-top: 80px;
+}
+.part6 img{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 80px;
+    width: 180px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 765px) and (max-width: 1401px){
+    .navbar{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        letter-spacing: 3px;
+        margin-left: 180px;
+        position: fixed;
+        z-index: 1;
+        background-color: black;
+        padding-bottom: 30px;
+        border-radius: 5px;
+    }
+    
+    .navbar li{
+        float: left;
+        list-style: none;
+        margin-left: 90px;
+        margin-top: 15px;
+        transition: all .600s linear;
+        margin-right: 100px;
+    } 
+    
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        transition: all linear  .300s;
+    }
+    
+    li a:hover{
+        font-size: 20px;
+        color: white;
+        font-weight: 600;
+    }
+    .navbar li a:active{
+        color: peru;
+        font-size: 22px;
+    }
+    
+    .part1{
+        position: relative;
+        width: 100%;
+        height: 900px;
+    }
+    
+    .part1 img{
+        position: absolute;
+        width: 900px;
+        height: 700px;
+        margin-left: 0px;
+    }
+    .part1 .box{
+       height: 320px; 
+       width: 600px;
+       margin-top: 500px;
+       margin-left: 700px;
+        
+    }
+    .part1 #logo{
+        margin-left: 1120px;
+        width: 200px;
+        height: 100px;
+    }
+    
+    
+    .box p{
+        color: white;
+        font-size: 60px;
+        margin-left: 150px;
+        margin-top: 45px;
+        font-family: 'Quicksand', sans-serif;
+        
+    }
+} */
+
+
+
+/* 
+
+
+/* Device : MOTO G4 & GALAXY S5*/
+
+/* @media (min-width: 360px) and (max-width: 640px){
+    .navbar{
+       margin-left: 0px;
+       height: 13px;
+       
+    
+    }
+    .navbar li{
+        padding: 0px;
+        margin-right: 0px;
+        margin-left: 7px;
+        font-size: 9px;
+        margin-top: 3px;
+        margin-bottom: 0px;
+        
+    }
+   .body{
+       padding: 5px;
+   }
+   
+    .allparts{
+       width: 285px;
+       margin-left: 10px;
+       height: 1800px;
+       
+   }
+
+    .part1 img{
+        width: 200px;
+        height: 200px;
+    }
+    .part1 .box{
+        margin-left: 150px;
+        margin-top: 120px;
+        width: 130px;
+        height: 100px;
+        box-shadow: 2px 2px white;
+        border: 1px solid white;
+        opacity: 0.9;
+    }
+    .box p{
+        font-size: 14px;
+        margin-left:30px;
+        margin-top: 22px;
+    }
+    .part1{
+        height: 300px;
+    }
+    .part2{
+        height: 330px;
+    }
+
+    .part2 #back{
+        width: 135px;
+        height: 120px;
+        margin-left: 166px;
+        margin-top: 30px;
+    }
+    .part2 #front{
+        width: 135px;
+        height: 120px;
+        margin-left: 33px;
+        margin-top: 143px;
+    }
+    
+    .part2 #p1{
+        width: 140px;
+        font-size: 8px;
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: justify;
+    }
+    .part2 #change{
+        font-size: 10px;
+        margin-left: 43px;
+    }
+    .part2 #p2{
+        width: 140px;
+        font-size: 8px;
+        margin-top: 20px;
+        margin-left: 152px;
+        text-align: justify;
+
+    }
+    .part2 #change1{
+        font-size: 10px;
+        margin-left: 30px;
+        
+        
+    }
+    .part3 {
+        height: 400px;
+    }
+    .part3 p{
+        font-size: 8px;
+        margin-left: 95px;
+    }
+    .part3 #img1{
+        width: 130px;
+        height: 150px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .part3 #img2{
+        width: 130px;
+        height: 150px;
+        margin-left:0px;
+        margin-top: 30px;
+    }
+   .part3 #img3{
+       width: 150px;
+       height: 150px;
+       margin-left: 140px;
+       margin-top: 130px ;
+   }
+   .part3 #img4{
+    width: 150px;
+    height: 150px;
+    margin-left: 140px;
+    margin-top: 130px ;
+    }
+    .part3 #img5{
+        width: 130px;
+        height: 150px;
+        margin-left: 0px;
+        margin-top: 200px ;
+    }
+    .part3 #img6{
+        width: 130px;
+        height: 150px;
+        margin-left: 0px;
+        margin-top: 200px ;
+    }
+    .part4{
+        height: 100px;
+    }
+    .part4 p{
+        font-size: 9px;
+        margin-top: 150px;
+    }
+    .box1 img{
+        margin-top: 30px ;
+        margin-left: 60px;
+        height: 70px;
+        width: 70px;
+    }
+    .box1 #img1{
+        margin-top: 30px ;
+        margin-left: 70px;
+        height: 70px;
+        width: 70px;
+    }
+    .box1 #p1{
+        margin-left: 195px;
+        margin-top: 5px ;
+        font-size: 6px;
+       
+    }
+    .box1 #change1{
+        font-size: 5px;
+        margin-left: 0px;
+    }
+    .box1 p{
+        margin-left: 60px;
+        margin-top: 5px ;
+        font-size: 6px;
+       
+    }
+    .box1 #change{
+        font-size: 7px;
+        margin-left: 30px;
+    }
+    .box1 #img2{
+        margin-top: 170px ;
+        margin-left: 0px;
+        height: 70px;
+        width: 70px;
+    }
+    .box1 #p2{
+        margin-left: 110px;
+        margin-top: 145px ;
+        font-size: 7px;
+       
+    }
+    .box1 #change2{
+        font-size: 6px;
+        margin-left: 5px;
+    }
+    .part5 p{
+        letter-spacing: 5px;
+        font-size: 7px;
+        margin-left: 10px;
+    }
+    .part5 form{
+        margin-left: 0px;
+    }
+   .part5 form input{
+       margin-left: 0px;
+       width: 100px;
+       height: 3px;
+       font-size: 10px;
+       margin-right: 0px;
+   }
+  form #button{
+      width: 70px;
+      font-size: 9px;
+      padding-top: 6px;
+      padding-bottom: 15px;
+      margin-left: 67px;
+      margin-top: 10px;
+      
+    }
+    .part5{
+        height: 110px;
+    }
+    .part6{
+        height: 10px;
+    }
+   .part6 img{
+       width: 50px;
+       height: 40px;
+   }
+   .part6 #about {
+       letter-spacing: 3px;
+       font-size: 5px;
+       margin-left: 10px;
+   }
+   .part6 #team{
+       font-size:4px ;
+       letter-spacing: 3px;
+       margin-left: 10px;
+       margin-top: 200px;
+   }
+   .part6 #social {
+    letter-spacing: 3px;
+    font-size: 5px;
+    margin-left: 70px;
+    }
+    .part6 #fb{
+        font-size:4px ;
+        letter-spacing: 3px;
+        margin-left: 70px;
+        margin-top: 200px;
+    }
+    .part6 #insta{
+        font-size:4px ;
+        letter-spacing: 3px;
+        margin-left: 70px;
+        margin-top: 210px;
+    }
+    .part6 #phone{
+    letter-spacing: 3px;
+    font-size: 5px;
+    margin-left: 150px;
+    }
+    .part6 #number{
+        font-size:4px ;
+        letter-spacing: 3px;
+        margin-left: 150px;
+        margin-top: 200px;
+    }
+    .part6 #email{
+        letter-spacing: 3px;
+        font-size: 5px;
+        margin-left: 235px;
+    }
+    .part6 #email1{
+        font-size:4px ;
+        letter-spacing: 1px;
+        margin-left: 230px;
+        margin-top: 200px;
+    }
+    .part1 #logo{
+        margin-left: 230px;
+        width: 50px;
+        height: 40px;
+        margin-top: 50px;
+      
+    }
+    .part6 img{
+        margin-top: 120px;
+        margin-left: 5px;
+    }
+
+
+}
+
+
+/* Device : Pixel 2 & Pixel 2 XL*/
+/* 
+@media (min-width: 411px) and (max-width: 731px){
+.allparts{
+    width: 346px;
+    margin-left: 5px;
+}
+.part1 img{
+    width: 250px;
+    height: 220px;
+}
+.part1 #logo{
+    margin-left: 280px;
+}
+.part1 .box{
+    margin-left: 180px;
+    width: 140px;
+    height: 110px;
+    margin-top: 130px;
+}
+.box p{
+    margin-top: 26px;
+    margin-left: 32px;
+}
+.part2{
+    margin-left: 10px;
+}
+.part3{
+    margin-left: 30px;
+}
+.part4{
+    margin-left: 18px;
+}
+.part5{
+    margin-left: 27px;
+}
+.allparts{
+    height: 1800px;
+}
+.part6{
+    margin-left: 18px;
+}
+
+}
+
+/* Device : iPhone 5/SE */
+    
+/* @media (min-width : 320px) and (max-width: 568px){
+    .navbar{
+        margin-left: 0px;
+        height: 11px;
+        
+     
+     }
+     .navbar li{
+         padding: 0px;
+         margin-right: 23px;
+         margin-left: 0px;
+         font-size: 6px;
+         margin-top: 3px;
+         margin-bottom: 0px;
+         
+     }
+    .body{
+        padding: 5px;
+    }
+    
+     .allparts{
+        width: 258px;
+        margin-left: 3px;
+        height: 1850px;
+        
+    }
+ 
+     .part1 img{
+         width: 180px;
+         height: 180px;
+     }
+     .part1 .box{
+         margin-left: 130px;
+         margin-top: 120px;
+         width: 130px;
+         height: 100px;
+         box-shadow: 2px 2px white;
+         border: 1px solid white;
+         opacity: 0.9;
+     }
+     .box p{
+         font-size: 14px;
+         margin-left:30px;
+         margin-top: 22px;
+     }
+     .part1{
+         height: 300px;
+     }
+     .part2{
+         height: 330px;
+     }
+ 
+     .part2 #back{
+         width: 135px;
+         height: 120px;
+         margin-left: 140px;
+         margin-top: 30px;
+     }
+     .part2 #front{
+         width: 135px;
+         height: 120px;
+         margin-left: 10px;
+         margin-top: 143px;
+     }
+     
+     .part2 #p1{
+         width: 115px;
+         font-size: 8px;
+         margin-top: 0px;
+         margin-left: 0px;
+         text-align: justify;
+     }
+     .part2 #change{
+         font-size: 10px;
+         margin-left: 32px;
+     }
+     .part2 #p2{
+         width: 130px;
+         font-size: 8px;
+         margin-top: 0px;
+         margin-left: 130px;
+         text-align: justify;
+ 
+     }
+     .part2 #change1{
+         font-size: 10px;
+         margin-left: 30px;
+         
+         
+     }
+     .part3 {
+         height: 400px;
+     }
+     .part3 p{
+         font-size: 8px;
+         margin-left: 95px;
+     }
+     .part3 #img1{
+         width: 130px;
+         height: 150px;
+         margin-left: 0px;
+         margin-top: 30px;
+     }
+     .part3 #img2{
+         width: 130px;
+         height: 150px;
+         margin-left:0px;
+         margin-top: 30px;
+     }
+    .part3 #img3{
+        width: 137px;
+        height: 137px;
+        margin-left: 140px;
+        margin-top: 130px ;
+    }
+    .part3 #img4{
+     width: 137px;
+     height: 137px;
+     margin-left: 140px;
+     margin-top: 130px ;
+     }
+     .part3 #img5{
+         width: 130px;
+         height: 150px;
+         margin-left: 0px;
+         margin-top: 200px ;
+     }
+     .part3 #img6{
+         width: 130px;
+         height: 150px;
+         margin-left: 0px;
+         margin-top: 200px ;
+     }
+     .part4{
+         height: 100px;
+     }
+     .part4 p{
+         font-size: 9px;
+         margin-top: 150px;
+     }
+     .box1 img{
+         margin-top: 30px ;
+         margin-left: 60px;
+         height: 70px;
+         width: 70px;
+     }
+     .box1 #img1{
+         margin-top: 30px ;
+         margin-left: 70px;
+         height: 70px;
+         width: 70px;
+     }
+     .box1 #p1{
+         margin-left: 195px;
+         margin-top: 5px ;
+         font-size: 6px;
+        
+     }
+     .box1 #change1{
+         font-size: 5px;
+         margin-left: 0px;
+     }
+     .box1 p{
+         margin-left: 60px;
+         margin-top: 5px ;
+         font-size: 6px;
+        
+     }
+     .box1 #change{
+         font-size: 7px;
+         margin-left: 30px;
+     }
+     .box1 #img2{
+         margin-top: 170px ;
+         margin-left: 0px;
+         height: 70px;
+         width: 70px;
+     }
+     .box1 #p2{
+         margin-left: 110px;
+         margin-top: 145px ;
+         font-size: 7px;
+        
+     }
+     .box1 #change2{
+         font-size: 6px;
+         margin-left: 5px;
+     }
+     .part5 p{
+         letter-spacing: 5px;
+         font-size: 5px;
+         margin-left: 10px;
+     }
+     .part5 form{
+         margin-left: 0px;
+     }
+    .part5 form input{
+        margin-left: 0px;
+        width: 80px;
+        height: 3px;
+        font-size: 10px;
+        margin-right: 0px;
+    }
+   form #button{
+       width: 70px;
+       font-size: 9px;
+       padding-top: 6px;
+       padding-bottom: 15px;
+       margin-left: 50px;
+       margin-top: 10px;
+       
+     }
+     .part5{
+         height: 110px;
+     }
+     .part6{
+         height: 10px;
+     }
+    .part6 img{
+        width: 50px;
+        height: 40px;
+    }
+    .part6 #about {
+        letter-spacing: 2px;
+        font-size: 5px;
+        margin-left: 0px;
+    }
+    .part6 #team{
+        font-size:4px ;
+        letter-spacing: 2px;
+        margin-left: 0px;
+        margin-top: 200px;
+    }
+    .part6 #social {
+     letter-spacing: 2px;
+     font-size: 5px;
+     margin-left: 50px;
+     }
+     .part6 #fb{
+         font-size:4px ;
+         letter-spacing: 2px;
+         margin-left: 50px;
+         margin-top: 200px;
+     }
+     .part6 #insta{
+         font-size:4px ;
+         letter-spacing: 2px;
+         margin-left: 50px;
+         margin-top: 210px;
+     }
+     .part6 #phone{
+     letter-spacing: 2px;
+     font-size: 5px;
+     margin-left: 120px;
+     }
+     .part6 #number{
+         font-size:4px ;
+         letter-spacing: 2px;
+         margin-left: 120px;
+         margin-top: 200px;
+     }
+     .part6 #email{
+         letter-spacing: 2px;
+         font-size: 5px;
+         margin-left: 200px;
+     }
+     .part6 #email1{
+         font-size:4px ;
+         letter-spacing: 1px;
+         margin-left: 200px;
+         margin-top: 200px;
+     }
+     .part1 #logo{
+         margin-left: 230px;
+         width: 50px;
+         height: 40px;
+         margin-top: 50px;
+       
+     }
+     .part6 img{
+         margin-top: 120px;
+         margin-left: 5px;
+     }
+ 
+ 
+ 
+} */
+
+/* Device : iPhone 6/7/8 */
+/* 
+@media (min-width: 375px) and (max-width: 667px){
+    .allparts{
+        width: 273px;
+        height: 1855px;
+    }
+   
+    .part1 img{
+        width: 200px;
+        height: 200px;
+    }
+    .part1 .box{
+        width: 150px;
+        height: 100px;
+
+    }
+   
+    .part5{
+        margin-left: 26px;
+    }
+    
+} */
+
+/* Device : iPhone 6/7/8 Plus */
+
+/* @media (min-width: 414px) and (max-width: 736px){
+    .allparts{
+        width: 352px;
+    }
+    .part1 img{
+        width: 230px;
+    }
+    .part1{
+        margin-left: 15px;
+    }
+    .part1 #logo{
+        margin-left: 260px;
+    }
+    .part1 .box{
+        margin-left: 150px;
+        margin-top: 125px;
+    }
+    .part2 #back{
+        width: 150px;
+    }
+    .part2 #front{
+        width: 150px;
+        margin-left: 0px;
+    }
+    .part2 #p2{
+        margin-left:140px ;
+    }
+    .part3 #img3{
+        width: 160px;
+    }
+    .part3 #img4{
+        width: 160px;
+    }
+    .part5 {
+        margin-left: 50px;
+    }
+    .part6{
+        margin-left: 30px;
+        
+    }
+    .part2{
+        margin-left: 25px;
+    }
+    .navbar li{
+
+        font-size: 8px;
+        margin-right: 15px;
+    }
+    .navbar{
+        margin-left: 0px;
+        
+    }
+    
+} */
+
+
+
+
+/* Device: iPhone X */
+/* @media (min-width: 375px) and (max-width: 812px){
+
+.allparts {
+    width: 310px;
+}
+.part1 .box{
+    width: 160px;
+}
+.part2{
+    margin-left: 20px;
+}
+.part3{
+    margin-left: 18px;
+}
+.part5 form{
+    margin-left: 20px;
+}
+.part6{
+    margin-left: 20px;
+}
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .allparts{
+        width: 1500px;
+    }
+    .part1 img{
+        width: 1000px;
+        height: 720px;
+    }
+    .part1 .box{
+        width: 570px;
+        height: 340px;
+    }
+    .part2 #back{
+        width: 600px;
+        height: 500px;
+    }
+    .part2 #front{
+        width: 600px;
+        height: 500px;
+        margin-left: 120px;
+        margin-top: 420px;
+    }
+    .part2 {
+        margin-left: 90px;
+    }
+    .part2 p{
+       
+        font-size: 23px;
+        margin-left: 160px;
+    }
+    .part2 #change{
+        margin-left: 60px;
+    }
+    .part2 #p2{
+        margin-left: 820px;
+    }
+    .part2 #change1{
+        margin-left: 75px;
+    }
+    .part5 form{
+        margin-left: 200px;
+    }
+}
+
+@media (min-width: 235px) and (max-width: 1222px){
+    .allparts{
+        width: 422px;
+    }
+    .navbar li{
+        margin-left: 20px;
+    }
+    .part1 img{
+        width: 260px;
+    }
+    .part1 .box{
+        margin-top: 140px;
+        margin-left: 190px;
+    }
+    .box p{
+        margin-left:40px;
+    }
+    .part1 #logo{
+        margin-left: 320px;
+    }
+    .part2 #back{
+         width: 170px;
+         margin-left: 180px;
+    }
+    .part2 #front{
+        width: 170px;
+        margin-left: 20px;
+    }
+    .part2 #p1{
+        margin-left: 25px;
+    }
+    .part2 #p2{
+        margin-left: 190px;
+    }
+    .part3 {
+        margin-left: 65px;
+    }
+    .part4 {
+        margin-left: 50px;
+    }
+    .part5{
+        margin-left: 70px;
+    }
+    .part5 form input{
+        width: 120px;
+    }
+    .part5 form{
+        margin-left: 0px;
+    }
+    .part5 #button{
+        margin-left: 85px;
+    }
+    .part6{
+        margin-left: 70px;
+    }
+}
+
+ @media screen and (max-width: 1407px){
+     .part1 #logo{
+         margin-left: 1100px;
+     }
+     .box{
+         margin-left: 600px;
+     }
+     .part3 #img2{
+        margin-left: 1000px;
+     }
+     .part3 #img1{
+         margin-left: 1000px;
+     }
+     .part3 #img3 {
+        margin-left: 350px;
+     }
+     .part3 #img4{
+         margin-left: 350px;
+     }
+     .part3 #img5{
+         margin-left: 0px;
+     }
+     .part3 #img6{
+         margin-left: 0px;
+     }
+ }
+
+ @media screen and (max-width: 1400px){
+     
+    .navbar li{
+        margin-right: 60px;
+    }
+    .box1 #img2{
+        margin-left: 550px;
+    }
+    .box1 #p2{
+        margin-left: 1050px;
+    }
+ }
+ @media screen and (max-width: 1380px){
+     .part3 #img1{
+         margin-left: 940px;
+
+     }
+     .part3 #img2{
+         margin-left: 940px;
+     }
+     .part3 #img3{
+         margin-left: 320px;
+     }
+     .part3 #img4{
+         margin-left: 320px;
+     }
+    
+ }
+ @media screen and (max-width: 1340px){
+     .part1 #logo{
+         margin-left: 1070px;
+     }
+ }
+@media screen and (max-width: 1320px){
+    .part1 #logo{
+        margin-left: 1050px;
+    }
+    .box1 #img2{
+        margin-left: 510px;
+    }
+    .box1 #p2{
+        margin-left: 1010px;
+    }
+    .box1 #img1{
+        margin-left: 150px;
+    }
+    .box1 #p1{
+        margin-left: 660px;
+    }
+    .part6 #email1{
+        margin-left: 950px;
+    }
+    .part6 #email{
+        margin-left: 950px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .part1 #logo{
+        margin-left: 1020px;
+    }
+    .part2 #p2{
+        margin-left: 850px;
+    }
+    .part3 #img4{
+        width: 550px;
+      
+    }
+    .part3 #img3{
+        width: 550px;
+       
+    }
+    .part3 #img1{
+        margin-left: 890px;
+    }
+    .part3 #img2{
+        margin-left: 890px;
+    }
+    .part6 #email1{
+        margin-left: 930px;
+    }
+    .part6 #email{
+        margin-left: 930px;
+    }
+    .part3 p{
+        margin-left: 490px;
+    }
+}
+@media screen and (max-width: 1280px){
+    .box1 #img2{
+        margin-left: 480px;
+    }
+    .box1 #p2{
+        margin-left: 980px;
+    }
+    .part5 #button{
+        margin-left: 0px;
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 1260px){
+    .part6 #email1{
+        margin-left: 905px;
+    }
+    .part6 #email{
+        margin-left: 905px;
+    }
+    .part1 #logo{
+        margin-left: 1000px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .part1 #logo{
+        margin-left: 980px;
+    }
+    .box{
+        margin-left: 580px;
+    }
+    .part3 #img4{
+        width: 510px;
+      
+    }
+    .part3 #img3{
+        width: 510px;
+       
+    }
+    .part3 #img1{
+        margin-left: 850px;
+    }
+    .part3 #img2{
+        margin-left: 850px;
+    }
+    .box1 #img2{
+        margin-left: 430px;
+    }
+    .box1 #p2{
+        margin-left: 930px;
+    }
+    .box1 #img1{
+        margin-left: 100px;
+    }
+    .box1 #p1{
+        margin-left: 610px;
+    }
+    .part6 #email1{
+        margin-left: 870px;
+    }
+    .part6 #email{
+        margin-left: 870px;
+    }
+    .part6 #phone{
+        margin-left: 660px ;
+    }
+    .part6 #number{
+        margin-left: 660px;
+    }
+    .part6 #social{
+        margin-left: 460px ;
+    }
+    .part6 #fb{
+        margin-left: 460px ;
+    }
+    .part6 #insta{
+        margin-left: 460px ;
+    }
+    .part6 #about{
+        margin-left: 270px ;
+    }
+    .part6 #team{
+        margin-left: 270px ;
+    }
+   
+    .part5 form input {
+        width: 350px;
+        padding: 10px 0px;
+        margin-right: 20px;
+        font-size: 18px;
+        border-radius: 4px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+   
+
+}
+
+@media screen and (max-width: 1240px){
+   
+    .allparts{
+        width: 4150px;
+    }
+    .part1 #logo{
+        margin-left: 950px;
+    }
+    .part1 img {
+        width: 800px;
+        height: 650px;
+    }
+    .part1 .box {
+        position: absolute;
+        width: 500px;
+        height: 320px;
+        background-color: black;
+        margin-left: 600px;
+        margin-top: 435px;
+        transition: 5s width;
+    }
+    .box p {
+        color: white;
+        font-size: 50px;
+        margin-left: 100px;
+        margin-top: 60px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .part2 #back {
+        width: 500px;
+        height: 400px;
+        margin-left: 540px;
+        margin-top: 0px;
+        opacity: 0.9;
+        border-radius: 4px;
+}
+    .part2 #front {
+        position: absolute;
+        width: 500px;
+        height: 400px;
+        margin-top: 360px;
+        margin-left: 140px;
+        border-radius: 4px;
+    }
+    .part2 #p2 {
+        margin-left: 760px;
+    }
+    
+    .part3 #img4{
+        width: 410px;
+      
+    }
+    .part3 #img3{
+        width: 410px;
+       
+    }
+    .part3 #img1{
+        margin-left: 750px;
+    }
+    .part3 #img2{
+        margin-left: 750px;
+    }
+   .box1 img{
+       margin-left: 200px;
+   }
+   .box1 p{
+       margin-left: 210px;
+   }
+   .box1 #p1{
+       margin-left: 510px;
+   }
+   .box1 #change{
+       margin-top: 24px;
+   }
+   .box1 #p2{
+    margin-left: 800px;
+    }
+    .box1 #img2{
+        margin-left: 400px;
+    }
+    
+    .part5 form input {
+        width: 350px;
+        padding: 10px 0px;
+        margin-right: 20px;
+        font-size: 18px;
+        border-radius: 4px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    .part6 #email1{
+        margin-left: 790px;
+    }
+    .part6 #email{
+        margin-left: 790px;
+    }
+    .part6 #phone{
+        margin-left: 580px ;
+    }
+    .part6 #number{
+        margin-left: 580px;
+    }
+    .part6 #social{
+        margin-left: 380px ;
+    }
+    .part6 #fb{
+        margin-left: 380px ;
+    }
+    .part6 #insta{
+        margin-left: 380px ;
+    }
+    .part6 #about{
+        margin-left: 190px ;
+    }
+    .part6 #team{
+        margin-left: 190px ;
+    }
+
+
+} */
+
+@media screen and (max-width: 1230px){
+   
+    .part5 form input {
+        width: 350px;
+        padding: 10px 0px;
+        margin-right: 20px;
+        font-size: 18px;
+        border-radius: 4px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    .part5 p{
+        margin-left: 300px;
+    }
+   
+    .part6 #email1{
+        margin-left: 750px;
+    }
+    .part6 #email{
+        margin-left: 750px;
+    }
+    .part6 #phone{
+        margin-left: 540px ;
+    }
+    .part6 #number{
+        margin-left: 540px;
+    }
+    .part6 #social{
+        margin-left: 340px ;
+    }
+    .part6 #fb{
+        margin-left: 340px ;
+    }
+    .part6 #insta{
+        margin-left: 340px ;
+    }
+    .part6 #about{
+        margin-left: 150px ;
+    }
+    .part6 #team{
+        margin-left: 150px ;
+    }
+    .part1 #logo{
+        margin-left: 910px;
+    }
+}
+
+/* @media screen and (max-width: 1220px){
+    .part1 .box {
+        position: absolute;
+        width: 500px;
+        height: 300px;
+        background-color: black;
+        margin-left: 540px;
+        margin-top: 435px;
+        transition: 5s width;
+    }
+    .part3 #img4{
+        margin-left: 310px;
+      
+    }
+    .part3 #img3{
+        margin-left: 310px;
+    }
+    .part3 #img1{
+        margin-left: 730px;
+    }
+    .part3 #img2{
+        margin-left: 730px;
+    }
+    .part6 #email1{
+        margin-left: 790px;
+    }
+    .part6 #email{
+        margin-left: 790px;
+    }
+    .part6 #phone{
+        margin-left: 580px ;
+    }
+    .part6 #number{
+        margin-left: 580px;
+    }
+    .part6 #social{
+        margin-left: 380px ;
+    }
+    .part6 #fb{
+        margin-left: 380px ;
+    }
+    .part6 #insta{
+        margin-left: 380px ;
+    }
+    .part6 #about{
+        margin-left: 190px ;
+    }
+    .part6 #team{
+        margin-left: 190px ;
+    }
+
+
+}
+
+@media screen and (max-width: 1230px){
+   
+    .part5 form input {
+        width: 350px;
+        padding: 10px 0px;
+        margin-right: 20px;
+        font-size: 18px;
+        border-radius: 4px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    .part5 p{
+        margin-left: 300px;
+    }
+   
+    .part6 #email1{
+        margin-left: 720px;
+    }
+    .part6 #email{
+        margin-left: 720px;
+    }
+    .part6 #phone{
+        margin-left: 510px ;
+    }
+    .part6 #number{
+        margin-left: 510px;
+    }
+    .part6 #social{
+        margin-left: 310px ;
+    }
+    .part6 #fb{
+        margin-left: 310px ;
+    }
+    .part6 #insta{
+        margin-left: 310px ;
+    }
+    .part6 #about{
+        margin-left: 120px ;
+    }
+    .part6 #team{
+        margin-left: 120px ;
+    }
+    
+}
+@media screen and (max-width: 1220px){
+    .part1 #logo{
+        margin-left: 880px;
+    }
+    .part3 #img5{
+        width: 350px;
+    }
+    .part3 #img6{
+        width:350px;
+    }
+    
+    .part3 #img4{
+        margin-left: 500px;
+        margin-top: 360px;
+      
+    }
+    .part3 #img3{
+        margin-left: 500px;
+        margin-top: 360px;
+    }
+    .part3 #img1{
+        width: 350px;
+        margin-left: 0px;
+        margin-top: 600px;
+    }
+    .part3 #img2{
+        width: 350px;
+        margin-left: 0px;
+        margin-top: 600px;
+    }
+    .part4{
+        margin-top: 300px;
+    }
+    .part3 p{
+        margin-left: 400px;
+    }
+    .allparts{
+        height: 4400px;
+    }
+}
+
+@media screen and  (max-width: 1200px ){
+    .part2 #p2{
+        margin-left: 700px;
+    }
+   .box1 #img1{
+       margin-left: 200px;
+   }
+   .box1 #p1{
+       margin-left: 610px;
+   }
+   .box1 #img2{
+       margin-top: 400px;
+       margin-left: 0px;
+   }
+   .box1 #p2{
+    margin-top: 400px;
+    margin-left: 390px;
+}
+.part5{
+    margin-top: 500px;
+}
+.allparts{
+    height: 4600px;
+}
+.part6 #email1{
+    margin-left: 660px;
+}
+.part6 #email{
+    margin-left: 660px;
+}
+.part6 #phone{
+    margin-left: 450px ;
+}
+.part6 #number{
+    margin-left: 450px;
+}
+.part6 #social{
+    margin-left: 250px ;
+}
+.part6 #fb{
+    margin-left: 250px ;
+}
+.part6 #insta{
+    margin-left: 250px ;
+}
+.part6 #about{
+    margin-left: 60px ;
+}
+.part6 #team{
+    margin-left: 60px ;
+}
+.part6 img {
+    margin-left: 0px;
+    margin-top: 80px;
+    width: 150px;
+    height: 80px;
+}
+}
+
+@media screen and  (max-width: 1190px ){
+
+    .part1 #logo{
+        margin-left: 840px;
+    }
+    .part1 .box {
+        width: 480px;
+        height: 300px;
+        background-color: black;
+        margin-left: 540px;
+        margin-top: 435px;
+        transition: 5s width;
+    }
+    .part5 form input {
+        width: 300px;
+       
+    }
+    .part5 p{
+        margin-left: 250px;
+    }
+    .part2 #back {
+        width: 450px;
+        height: 350px;
+        margin-left: 500px;
+        margin-top: 10px;
+        opacity: 0.9;
+        border-radius: 4px;
+    }
+    .part2 #front {
+        width: 450px;
+        height: 350px;
+        margin-top: 340px;
+        margin-left: 120px;
+        border-radius: 4px;
+    }
+    .part2 #p2{
+        margin-left: 650px;
+    }
+   
+}
+@media screen and  (max-width: 1150px ){
+.part1 #logo{
+    margin-left: 820px;
+    width: 150px;
+    height: 80px;
+}
+.part1 .box{
+    width: 450px;
+}
+.box p{
+    font-size: 40px;
+}
+
+.part6 #email1{
+    margin-left: 600px;
+}
+.part6 #email{
+    margin-left: 600px;
+}
+.part6 #phone{
+    margin-left: 390px ;
+}
+.part6 #number{
+    margin-left: 390px;
+}
+.part6 #social{
+    margin-left: 190px ;
+}
+.part6 #fb{
+    margin-left: 190px ;
+}
+.part6 #insta{
+    margin-left: 190px ;
+}
+.part6 #about{
+    margin-left: 0px ;
+}
+.part6 #team{
+    margin-left: 0px ;
+}
+}
+
+@media screen and  (max-width: 1025px ){
+.part1 .box{
+    width: 400px;
+    height: 280px;
+    margin-top: 460px;
+}
+.part3 #img4{
+    margin-left: 390px;
+    margin-top: 360px;
+  
+}
+.part3 #img3{
+    margin-left: 390px;
+    margin-top: 360px;
+}
+.part2 #back {
+    width: 400px;
+    height: 350px;
+    margin-left: 400px;
+    margin-top: 10px;
+    opacity: 0.9;
+    border-radius: 4px;
+}
+.part2 #front {
+    width: 400px;
+    height: 350px;
+    margin-top: 340px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+.part2 #p2{
+    margin-left: 500px;
+    font-size: 18px;
+    margin-top: 190px;
+    
+}
+.part2 p{
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+
+.part5 form input {
+    width: 270px;
+   
+}
+
+.part6 #email1{
+    font-size: 10px;
+    margin-left: 600px;
+}
+.part6 #email{
+    font-size: 10px;
+    margin-left: 600px;
+}
+.part6 #phone{
+    font-size: 10px;
+    margin-left: 390px ;
+}
+.part6 #number{
+    font-size: 10px;
+    margin-left: 390px;
+}
+.part6 #social{
+    font-size: 10px;
+    margin-left: 190px ;
+}
+.part6 #fb{
+    font-size: 10px;
+    margin-left: 190px ;
+}
+.part6 #insta{
+    font-size: 10px;
+    margin-left: 190px ;
+}
+.part6 #about{
+    font-size: 10px;
+    margin-left: 0px ;
+}
+.part6 #team{
+    font-size: 10px;
+    margin-left: 0px ;
+}
+
+}
+
+@media screen and  (max-width: 1020px ){
+
+.part1 img {
+     position: absolute;
+     width: 750px;
+    height: 600px;
+    }
+    .part1 #logo{
+        margin-left: 780px;
+    }
+    .part1 .box{
+        margin-left: 500px;
+        height: 250px;
+    }
+ 
+}
+
+@media screen and (max-width: 1015px){
+    .part1 #logo{
+        margin-left: 760px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .part1 img {
+        width: 650px;
+       height: 500px;
+       }
+    .part1 #logo{
+        margin-left: 720px;
+    }
+    .part1 .box{
+        margin-left: 450px;
+        margin-top: 400px;
+    }
+    .box p{
+        font-size: 35px;
+    }
+    .navbar{
+        margin-left: 100px;
+    }
+    .part1{
+        height: 750px;
+    }
+    .part2 #back {
+        width: 400px;
+        height: 350px;
+        margin-left: 370px;
+        margin-top: 10px;
+        
+    }
+    .part2 #front {
+        width: 400px;
+        height: 350px;
+        margin-top: 340px;
+        margin-left: 20px;
+        border-radius: 4px;
+    }
+    .part2 #p2{
+        margin-left: 450px;
+        font-size: 18px;
+        margin-top: 190px;
+        
+    }
+    .part6 #email{
+        font-size: 10px;
+        margin-left: 530px;
+    }
+    .part6 #phone{
+        font-size: 10px;
+        margin-left: 320px ;
+    }
+    .part6 #number{
+        font-size: 10px;
+        margin-left: 320px;
+    }
+    .part6 #social{
+        font-size: 10px;
+        margin-left: 150px ;
+    }
+    .part6 #fb{
+        font-size: 10px;
+        margin-left: 150px ;
+    }
+    .part6 #insta{
+        font-size: 10px;
+        margin-left: 150px ;
+    }
+    .part6 #about{
+        font-size: 10px;
+        margin-left: 0px ;
+    }
+    .part6 #team{
+        font-size: 10px;
+        margin-left: 0px ;
+    }
+    
+    .part6 #email1{
+        font-size: 10px;
+        margin-left: 530px;
+    }
+        
+
+   
+}
+
+@media screen and (max-width: 980px){
+    .part5 form input {
+        width: 240px;
+       
+    }
+    .part5 p{
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width: 960px){
+
+    .part1 #logo{
+        margin-left: 690px;
+    }
+
+    .part1 .box{
+        margin-left: 400px;
+    }
+    .part2 #back {
+        width: 350px;
+        height: 350px;
+        margin-left: 370px;
+        margin-top: 10px;
+        
+    }
+    .part2 #front {
+        width: 350px;
+        height: 350px;
+        margin-top: 340px;
+        margin-left: 50px;
+        
+    }
+    .part2 #p2{
+        margin-left: 430px;
+       
+        
+    }
+    .part3 #img4{
+        margin-left: 360px;
+      
+    }
+    .part3 #img3{
+        margin-left: 360px;
+    }
+    .box1 #img1{
+        margin-left: 140px;
+    }
+    .box1 #p1{
+        margin-left: 550px;
+    }
+}
+
+@media screen and (max-width: 940px){
+    .part1 #logo{
+        margin-left: 670px;
+    }
+
+    .part3 #img3{
+        width: 350px;
+    }
+    .part3 #img4{
+        width: 350px;
+    }
+
+    .part5 form input {
+        width: 220px;
+       
+    }
+    .part5 p{
+        margin-left: 150px;
+    }
+    .part6 #email{
+        font-size: 10px;
+        margin-left: 460px;
+    }
+    .part6 #phone{
+        font-size: 10px;
+        margin-left: 280px ;
+    }
+    .part6 #number{
+        font-size: 10px;
+        margin-left: 280px;
+    }
+    .part6 #social{
+        font-size: 10px;
+        margin-left: 130px ;
+    }
+    .part6 #fb{
+        font-size: 10px;
+        margin-left: 130px ;
+    }
+    .part6 #insta{
+        font-size: 10px;
+        margin-left: 130px ;
+    }
+    .part6 #about{
+        font-size: 10px;
+        margin-left: 0px ;
+    }
+    .part6 #team{
+        font-size: 10px;
+        margin-left: 0px ;
+    }
+    
+    .part6 #email1{
+        font-size: 10px;
+        margin-left: 460px;
+    }
+    
+
+} */
+
+/* @media screen and (max-width: 930px){
+    .part2 #p2{
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width: 920px){
+    .part1 #logo{
+        margin-left: 670px;
+        width: 120px;
+        height: 70px;
+    }
+    .part1 .box{
+        margin-left: 370px;
+    }
+    .part2 {
+        margin-left: 0px;
+    }
+    .part4{
+        margin-left: 0px;
+    }
+    .part5{
+        margin-left: 30px;
+    }
+
+}
+@media screen and (max-width: 900px){
+   .navbar {
+       margin-left: 10px;
+   }
+   .part1 #logo{
+       margin-left: 655px;
+   }
+   .part1 .box{
+       margin-left: 350px;
+   }
+
+.part3{
+    margin-left: 0px;
+}
+
+
+}
+
+@media screen and (max-width: 880px){
+   .part1 img{
+       width: 600px;
+   }
+   .part1 #logo{
+       margin-left: 620px;
+   }
+   .part6 #email{
+    font-size: 10px;
+    margin-left: 440px;
+}
+.part6 #phone{
+    font-size: 10px;
+    margin-left: 260px ;
+}
+.part6 #number{
+    font-size: 10px;
+    margin-left: 260px;
+}
+.part6 #social{
+    font-size: 10px;
+    margin-left: 120px ;
+}
+.part6 #fb{
+    font-size: 10px;
+    margin-left: 120px ;
+}
+.part6 #insta{
+    font-size: 10px;
+    margin-left: 120px ;
+}
+.part6 #email1{
+    font-size: 10px;
+    margin-left: 440px;
+}
+}
+
+@media screen and (max-width: 860px){
+    .part1 .box{
+        margin-left: 320px;
+    }
+    .part5 form input {
+        width: 180px;
+       
+    }
+}
+
+@media screen and (max-width: 840px){
+    .part1 #logo{
+        margin-left: 610px;
+    }
+    .part4 #img1{
+        margin-left: 70px;
+    }
+    .part4 #p1{
+        margin-left: 490px;
+    }
+    .part4 #img2{
+        margin-left: 70px;
+    }
+    .part4 #p2{
+        margin-left: 460px;
+    }
+    .part6 #email{
+        font-size: 10px;
+        margin-left: 400px;
+    }
+    .part6 #phone{
+        font-size: 10px;
+        margin-left: 240px ;
+    }
+    .part6 #number{
+        font-size: 10px;
+        margin-left: 240px;
+    }
+    .part6 #social{
+        font-size: 10px;
+        margin-left: 105px ;
+    }
+    .part6 #fb{
+        font-size: 10px;
+        margin-left: 105px ;
+    }
+    .part6 #insta{
+        font-size: 10px;
+        margin-left: 105px ;
+    }
+    .part6 #email1{
+        font-size: 10px;
+        margin-left: 400px;
+    }
+    .part3 p{
+        margin-left: 270px;
+    }
+}
+
+
+@media screen and (max-width: 830px){
+    .part1 img{
+        width: 500px;
+        height: 430px;
+    }
+    .part1 #logo{
+        margin-left: 530px;
+    }
+    .navbar{
+        margin-left: 0px;
+    }
+    .part1 .box{
+        margin-left: 270px;
+        width: 350px;
+        height: 200px;
+        margin-top: 300px;
+    }
+
+    .box p{
+        font-size: 30px;
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+    .part2 p{
+        font-size: 15px;
+    }
+    .part2 #back {
+        width: 320px;
+        height: 350px;
+        margin-left: 367px;
+        margin-top: 10px;
+        
+    }
+    .part2 #front {
+        width: 320px;
+        height: 350px;
+        margin-top: 340px;
+        margin-left: 50px;
+        
+    }
+    .part2 #p2{
+        margin-left: 400px;
+        font-size: 15px;
+     }
+
+     .part2 #change1{
+         margin-left: 40px;
+     }
+}
+
+@media screen and (max-width: 815px){
+    .part3 #img3{
+        width: 300px;
+        height: 400px;
+    }
+    .part3 #img4{
+        width: 300px;
+        height: 400px;
+
+    }
+    .part3 #img1{
+        width: 300px;
+        height: 400px;
+    }
+    .part3 #img2{
+        width: 300px;
+        height: 400px;
+    }
+    .part3 #img5{
+        width: 300px;
+        height: 400px;
+    }
+    .part3 #img6{
+        width: 300px;
+        height: 400px;
+    }
+    .part6 #email{
+        font-size: 10px;
+        margin-left: 360px;
+    }
+    .part6 #phone{
+        font-size: 10px;
+        margin-left: 220px ;
+    }
+    .part6 #number{
+        font-size: 10px;
+        margin-left: 220px;
+    }
+    .part6 #social{
+        font-size: 10px;
+        margin-left: 105px ;
+    }
+    .part6 #fb{
+        font-size: 10px;
+        margin-left: 105px ;
+    }
+    .part6 #insta{
+        font-size: 10px;
+        margin-left: 105px ;
+    }
+    .part6 #email1{
+        font-size: 10px;
+        margin-left: 360px;
+    }
+}
+
+@media screen and (max-width: 805px){
+    .part2 #back {
+        width: 280px;
+        height: 300px;
+        margin-left: 367px;
+        margin-top: 10px;
+        
+    }
+    .part2 #front {
+        width: 280px;
+        height: 300px;
+        margin-top: 340px;
+        margin-left: 50px;
+        
+    }
+    .part2 #p2{
+        margin-left: 400px;
+        font-size: 15px;
+     }
+     
+}
+
+@media screen and (max-width: 795px){
+    .part4 #team{
+        margin-top: 300px;
+        font-size: 30px;
+    }
+    .part4 #img1{
+        margin-top: 55px;
+        margin-left: 350px;
+    }
+    .part4 img{
+        margin-left: 0px;
+    }
+    .part4 #img{
+        margin-left: 350px;
+    }
+    .part4 p{
+        font-size: 10px;
+    }
+    .part4 #p{
+        position: relative;
+        margin-top: 0px;
+        margin-left: 390px;
+    }
+    .part4 #p1{
+        margin-top: 260px;
+        margin-left: 390px;
+    }
+    .part4 #change1{
+        font-size: 12px;
+        margin-left:0px;
+    }
+    .part4 #change{
+        font-size: 12px;
+        margin-left: 35px;
+    }
+    .part4 #img2{
+        margin-top: 350px;
+        margin-left: 350px;
+    }
+    .part5{
+        margin-top: 670px;
+    }
+    .part4 #p2{
+        margin-top: 560px;
+        margin-left: 375px;
+    }
+    .part4 #change2{
+        font-size: 12px;
+        margin-left: 0px;
+    }
+   
+    .part5 p{
+        font-size: 15px;
+        margin-left: 150px;
+    }
+   
+    
+}
+
+@media screen and (max-width: 785px){
+    .part3 #img3{
+        margin-left: 320px;
+    }
+    .part3 #img4{
+        margin-left: 320px;
+    }
+    .part5 form input{
+        font-size: 13px;
+        width: 150px;
+    }
+    .part5 #button{
+        width:150px ;
+        height: 40px;
+        font-size: 14px;
+    }
+    .part6 {
+        margin-left: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 775px){
+    .part1 #logo{
+        margin-left: 510px;
+    }
+    .part2 #p2{
+        margin-top: 150px;
+        margin-left: 350px;
+    }
+    .part2 p{
+        width: 300px;
+    }
+    .part2 #back{
+        margin-left: 330px;
+    }
+    .part2 #front{
+        margin-top: 260px;
+        margin-left: 70px;
+    }
+    .part2{
+        height: 700px;
+    } 
+    .part1 {
+        height: 600px;
+    }
+    .allparts{
+        height: 4200px;
+    }
+}
+
+@media screen and (max-width: 765px){
+    .part1 img{
+        width: 450px;
+    }
+    .part1 #logo{
+        margin-left: 460px;
+    }
+    .part1 .box{
+        width: 310px;
+    }
+    .box p{
+        font-size: 25px;
+    }
+} */
+
+/* @media screen and (max-width: 755px){
+    .part1 .box{
+        margin-left: 250px;
+    }
+.part2 #p2{
+    margin-top: 130px;
+    margin-left: 320px;
+}
+.part2 p{
+    width: 250px;
+}
+.part2 #change{
+    margin-left: 40px;
+}
+.part2 #back{
+    margin-left: 300px;
+}
+.part2 #front{
+    margin-top: 260px;
+    margin-left: 50px;
+}
+.part3 #img3{
+    width: 280px;
+    margin-left: 305px;
+}
+.part3 #img4{
+    width: 280px;
+    margin-left: 305px;
+}
+.part5{
+    margin-left: 0px;
+}
+.part5 p{
+    margin-left: 80px;
+}
+}
+
+@media screen and (max-width: 745px){
+
+    .part2 #p2{
+        width: 300px;
+        font-size: 14px;
+        margin-top: 140px;
+
+    }
+
+    .part2 #change1{
+        font-size: 18px;
+    }
+    .part2 #p1{
+        width: 235px;
+        font-size: 14px;
+    }
+    .part2 #change{
+        font-size: 18px;
+        margin-left: 60px;
+    }
+    .part3 p{
+        font-size: 16px;
+        margin-left: 195px;
+    }
+    .part4{
+        margin-top: 700px;
+    }
+    .part4 #img{
+        width: 170px;
+        height: 170px;
+        margin-left: 250px;
+      
+    }
+    .part4 #img1{
+        width: 170px;
+        height: 170px; 
+        margin-left: 250px;
+    }
+   
+    .part4 #img2{
+        width: 170px;
+        height: 170px; 
+        margin-left: 250px; 
+    }
+    .part4 #p{
+        margin-left: 275px;
+    }
+    .part4 #p1{
+        font-size: 12px;
+        margin-top: 230px;
+        margin-left: 275px;
+    }
+    .part4 #p2{
+        font-size: 12px;
+        margin-left: 250px;
+        margin-top: 530px;
+    }
+    .part3 #img1{
+        margin-top: 630px;
+    }
+    .part3 #img2{
+        margin-top: 630px;
+    }
+    .allparts{
+        height: 3700px;
+    }
+    .part5 #button{
+        height: 30px;
+    }
+    .part5{
+        margin-top: 800px;
+    }
+    .part6 #team{
+        margin-top: 210px;
+    }
+    .part6 #fb{
+        margin-top: 210px;
+    }
+    .part6 #insta{
+        margin-top: 230px;
+    }
+    .part6 #number{
+        margin-top: 210px;
+    }
+    .part6 #email1{
+        margin-top: 210px;
+    }
+   
+}
+
+@media screen and (max-width: 735px){
+   .part1 #logo{
+        margin-left: 450px;
+        width: 100px;
+        height: 50px;
+    }
+    .navbar{
+        margin-left: 0px;
+    }
+    .navbar li{
+        margin-right: 40px;
+    }
+    .part1 .box{
+        width: 300px;
+        height: 180px;
+        margin-left: 220px;
+    }
+    .part2 #back{
+        margin-left: 270px;
+    }
+    .part2 #p1{
+        width: 210px;
+    }
+    .part2 #front{
+        margin-left: 0px;
+    }
+    .part2 #p2{
+        margin-left: 290px;
+        margin-top: 100px;
+    }
+    .part3 #img1{
+        width: 250px;
+        height: 300px;
+    }
+    .part3 #img2{
+        width: 250px;
+        height: 300px;
+    }
+    .part3 #img5{
+        width: 250px;
+        height: 300px;
+    }
+    .part3 #img6{
+        width: 250px;
+        height: 300px;
+    }
+    .part3 #img3{
+        width: 250px;
+        height: 330px;
+        margin-left: 270px;
+    }
+    .part3 #img4{
+        width: 250px;
+        height: 330px;
+        margin-left: 270px;
+    }
+    .part5 #button{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 700px){
+   .part1 img{
+    width: 360px;
+    height: 380px;
+   }
+   .part1 #logo{
+       margin-left: 380px;
+   }
+   .part1 .box{
+       width: 250px;
+       height: 150px;
+   }
+   .box p{
+    font-size: 20px;
+    margin-left: 80px;
+   }
+   .part2 #back{
+       width: 230px;
+       height: 260px;
+   }
+   .part2 #front{
+    width: 230px;
+    height: 260px;
+    margin-left: 50px;
+    }
+    .part2 #p2{
+        margin-left: 270px;
+        margin-top: 70px;
+    } */
+
+
+
+/* @media screen and (max-width: 700px){
+    
+}
+.part2 #front{
+    margin-left: 30px;
+}
+.part2 #back{
+    margin-left: 260px;
+}
+.part2 #p2{
+    margin-left: 250px;
+}
+.part3 #img3{
+    width: 220px;
+    height: 330px;
+    margin-left: 260px;
+}
+.part3 #img4{
+    width: 220px;
+    height: 330px;
+    margin-left: 260px;
+}
+.part5 form input {
+    width:100px;
+}
+.part5 #button{
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+}
+.part6 #email{
+    margin-left: 340px;
+}
+.part6 #email1{
+    margin-left: 340px ;
+} */
+
+/* @media screen and (max-width: 650px){
+    .part1 #logo{
+        margin-left: 360px;
+    }
+    .part1 .box{
+        margin-left: 200px;
+    }
+    .navbar li{
+        margin-right: 20px;
+    }
+    .part2 #p1{
+        margin-left: 0px;
+    }
+    .part2 #back{
+        margin-left: 235px;
+    }
+    .part2 #front{
+        margin-left: 10px;
+    }
+    .part2 #p2{
+        margin-left: 230px;
+    }
+    .part5 p{
+        font-size: 10px;
+        margin-left: 80px;
+    }
+    .part6 #social{
+        margin-left: 90px;
+    }
+    .part6 #insta{
+        margin-left: 90px;
+    }
+    .part6 #fb{
+        margin-left: 90px;
+    }
+    .part6 #phone{
+        margin-left: 200px;
+    }
+    .part6 #number{
+        margin-left: 200px;
+    }
+    .part6 #email{
+        margin-left: 320px;
+    }
+    .part6 #email1{
+        margin-left: 320px ;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .part1 #logo{
+        width: 80px;
+        height: 40px;
+        margin-left: 360px;
+    }
+    .part1 .box{
+        margin-left: 150px;
+    }
+    .part2 #p1{
+        width: 200px;
+    }
+    .part2 #back{
+        margin-left: 222px;
+    }
+    .part2 #p2{
+        width: 220px;
+        margin-left: 215px;
+    }
+    .part2 #front{
+        margin-left: 0px;
+    }
+    .part3 #img3{
+        width: 210px;
+        height: 300px;
+        margin-top: 440px;
+        margin-left: 230px;
+        
+    }
+    .part3 #img4{
+        width: 210px;
+        height: 300px;
+        margin-top: 440px;
+        margin-left: 230px;
+
+
+       
+    }
+    .part3 #img5{
+        width: 210px;
+        height: 300px;
+    }
+    .part3 #img6{
+        width: 210px;
+        height: 300px;
+    }
+    .part3 #img2{
+        width: 210px;
+        height: 300px;
+    }
+    .part3 #img1{
+        width: 210px;
+        height: 300px;
+    }
+    .part6 #email{
+        margin-left: 310px;
+    }
+    .part6 #email1{
+        margin-left: 310px ;
+    }
+    .part6 #phone{
+        margin-left: 190px;
+    }
+    .part6 #number{
+        margin-left: 190px ;
+    }
+}  */

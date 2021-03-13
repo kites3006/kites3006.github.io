@@ -1,0 +1,210 @@
+
+
+@import 'aos/dist/aos.css';
+
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.navbar{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin-left: 210px;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 20px;
+    transition: all .600s linear;
+    margin-right: 100px;
+} 
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    transition: all linear  .300s;
+}
+
+li a:hover{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.navbar li a:active{
+    color: peru;
+    font-size: 22px;
+}
+.box1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-top: 170px;
+    margin-left: 50px;
+    background-color:rgb(255, 162, 255);
+    border-radius: 10px;
+}
+.box2{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-top: 170px;
+    margin-left: 550px;
+    background-color: rgb(214, 206, 255);
+    border-radius: 10px;
+}
+.box3{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-top: 170px;
+    margin-left: 1050px;
+    background-color: rgb(195, 255, 237);
+    border-radius: 10px;
+}
+ img{
+    position: absolute;
+    margin-top: 130px;
+    z-index: 1;
+   margin-left: 16px;
+ }
+ #img1{
+    position: absolute;
+    margin-top: 130px;
+    z-index: 1;
+   margin-left: 516px; 
+ }
+ #img2{
+    position: absolute;
+    margin-top: 130px;
+    z-index: 1;
+    margin-left: 1016px; 
+ }
+ .all{
+     margin-left: 35px;
+ }
+ .box1 img{
+     margin-top: 20px;
+     margin-left: 139px;
+     border-radius: 70px;
+ }
+ h3{
+     font-weight: lighter;
+     margin-top: 155px;
+     margin-left: 120px;
+     font-family: 'Montserrat' , 'sans-serif';
+     
+ }
+ h4{
+     text-align: justify;
+     padding: 40px;
+     font-family: 'Montserrat' , 'sans-serif';
+     font-weight: lighter;
+     
+ }
+ .box2 img{
+    margin-top: 20px;
+    margin-left: 139px;
+    border-radius: 70px;
+}
+.box3 img{
+    margin-top: 20px;
+    margin-left: 139px;
+    border-radius: 70px;
+}
+#btn{
+    background-color:black;
+    color: black;
+    border: 2px solid rgb(216, 149, 255);
+    border-radius: 23px;
+    padding: 10px;
+    margin-top: 650px;
+    margin-left: 680px;
+
+}
+#btn a{
+    font-family: 'Montserrat' , 'sans-serif';
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    transition: all 0.900s linear;
+}
+
+form{
+    position: absolute;
+    width: 60%;
+    padding: 80px;
+    border-radius: 3px;
+    margin-top: 700px;
+    margin-left: 700px;
+   
+}
+ form input{
+    font-family: 'Montserrat' , 'sans-serif';
+    width: 300px;
+    padding: 2px 0px;
+    height: 30px;
+    margin-right: 20px;
+    font-size: 15px;
+    border: 3px solid rgb(216, 149, 255);
+    border-radius: 4px;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+
+ #feedbackbtn{
+     position: absolute;
+    border:3px solid rgb(216, 149, 255);
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-radius: 23px;
+    padding: 10px;
+    font-size: 13px;
+    margin-left: 165px;
+    margin-top: 5px;
+    font-family: 'Montserrat' , 'sans-serif';
+ }
+  #feedbackimg{
+    margin-top: 770px;
+    margin-left: 155px;
+
+}
+
+
+label{
+    margin-left: 100px;
+    font-family: 'Montserrat' , 'sans-serif';
+    color: white;
+}
+textarea{
+    border: 3px solid  rgb(216, 149, 255);
+    border-radius: 4px;
+    margin-left: 100px;
+}
+.modal-content{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat' , 'sans-serif';
+}
+.modal-dialog{
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+.modal-header , .modal-footer{
+    border: none;
+}
+
+

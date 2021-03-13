@@ -1,0 +1,149 @@
+.contactparts{
+    background-color: black;
+    padding: 20px;
+    width: 1400px;
+    height: 1000px;
+    margin-left: 60px;
+}
+.cpart1{
+    position: relative;
+    width: 100%;
+    height: 500px ;
+    background-image:url(../images/back.jpg) ;
+}
+.cpart1 .formbox{
+    position: absolute;
+    width: 730px;
+    height: 700px;
+    margin-left: 340px;
+    background-color: black;
+}
+.formbox form input{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-weight: 300;
+    width: 400px;
+    padding: 10px 10px;
+    font-size: 18px;
+    border: 1px solid #3b3a38;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    height: 30px;
+    
+}
+.formbox form{
+    margin-top: 200px;
+    background-color: black;
+    width: 400px;
+    margin-left: 125px;
+}
+.formbox form #msg{
+    background-color: #3b3a38;
+    color: white ;
+    font-size: 19px;
+}
+.formbox label{
+    color: white;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+
+#submitbutton{
+    width: 150px;
+    height: 40px;
+    background-color: white ;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Montserrat";
+    margin-left: 130px;
+    margin-top: 50px;
+}
+#submitbutton:hover{
+    background-color: #383838;
+    color:white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+@media (min-width: 375px) and (max-width: 812px){
+    .contactparts{
+        background-color: black;
+        padding: 10px;
+        width: 300px;
+        height: 800px;
+        margin-left: 20px;
+    }
+    .cpart1{
+        position: relative;
+        width: 100%;
+        height: 300px ;
+        background-image:url(./images/back.jpg) ;
+    }
+    .cpart1 .formbox{
+        position: absolute;
+        width: 250px;
+        height: 500px;
+        margin-left: 20px;
+        background-color: black;
+    }
+    .formbox form input{
+        background-color: rgb(43, 43, 43);
+        color: white;
+        font-weight: 300;
+        width: 130px;
+        padding: 1px;
+        font-size: 8px;
+        border: 1px solid #3b3a38;
+        border-radius: 4px;
+        height: 25px;
+        
+    }
+    .formbox form{
+        margin-top: 160px;
+        background-color: black;
+        width: 150px;
+        margin-left: 50px;
+    }
+    .formbox form #msg{
+        background-color: #3b3a38;
+        color: white ;
+        font-size: 9px;
+    }
+    .formbox label{
+        color: white;
+        font-size: 9px;
+        font-family: Montserrat;
+    }
+    #submitbutton{
+        width: 90px;
+        height: 30px;
+        background-color: white ;
+        color: black;
+        font-weight: bold;
+        font-size: 9px;
+        font-family: "Montserrat";
+        margin: 35px;
+        
+        
+    }
+    #submitbutton:hover{
+        background-color: #383838;
+        color:white;
+        font-size: 9px;
+        font-weight: bold;
+    }
+ 
+    }
+    alert{
+    background-color: black;
+    }
+
+    @media screen and (max-width: 1500px){
+     .navbar{
+         margin-left: 100px;
+     }
+    }
+
+
